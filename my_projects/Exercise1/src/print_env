@@ -1,0 +1,4 @@
+import platform, subprocess
+print("Python version:", platform.python_version())
+print("\nInstallerade paket (pip list):")
+subprocess.run(["pip, "list"])
