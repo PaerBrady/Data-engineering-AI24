@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: exercise2-python311:latest
+    working_dir: /app
+    command: python src/main.py
+    volumes:
+      - ./src:/app/src:rw
+    user: "${UID:-1000}:${GID:-1000}"
+    tty: true
+    stdin_open: true

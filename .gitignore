@@ -1,5 +1,6 @@
 # Byte-compiled / cache
 __pycache__/
+*.pyc
 *.py[cod]
 *$py.class
 
@@ -7,6 +8,7 @@ __pycache__/
 .venv/
 venv/
 env/
+.env
 
 # VS Code settings
 .vscode/
@@ -30,7 +32,3 @@ coverage/
 *.egg-info/
 dist/
 build/
-
-# Environments
-.env.venv/
-.DS_Store

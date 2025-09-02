@@ -1,0 +1,3 @@
+# Rensa bältet, hämta nya Pokémon och spara observation VARJE timme (minut 5)
+# Testa först gärna varannan minut: */2 * * * * ...
+*/5 * * * * cd /app && ./scripts/release_pokemons.sh --yes && python3 scripts/extract_data.py --only-b && python3 scripts/transform_load.py >> /var/log/poketasks.log 2>&1

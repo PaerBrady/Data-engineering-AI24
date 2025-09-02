@@ -96,16 +96,52 @@ def main():
     os.makedirs(out_dir, exist_ok=True)
     out_path = os.path.join(out_dir, "pokelist.json")
 
-    with open(out_path, "w", encoding="utf-8") as f:
+    tmp_path = out_path + ".tmp"
+    with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(mapping, f, ensure_ascii=False, separators=(",", ":"))
-
+    os.replace(tmp_path, out_path)
+    
     print(f"Sparade {len(mapping)} pokémon till {out_path}")
     first10 = {k: mapping[k] for k in sorted(mapping, key=lambda x: int(x))[:10]}
     print("Första 10:", first10)
 
+def fetch_pokemons_from_api():
+    # Ladda listan
+    root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    pokelist_path = os.path.join(root, "pokedata", "pokelist.json")
+    with open(pokelist_path, encoding="utf-8") as f:
+        pokelist = json.load(f)
+
+    # Slumpa 6 unika Pokémon-ID:n
+    chosen_ids = random.sample(range(1, 152), 6)
+    chosen = {i: pokelist[str(i)] for i in chosen_ids}
+
+    # Förbered mapp
+    belt_dir = os.path.join(root, "pokedata", "pokebelt")
+    os.makedirs(belt_dir, exist_ok=True)
+
+    s = requests.Session()
+    for dex, name in chosen.items():
+        url = f"https://pokeapi.co/api/v2/pokemon-species/{name.lower()}"
+        print(f"Hämtar {name} från {url} ...")
+        try:
+            r = s.get(url, timeout=20)
+            r.raise_for_status()
+            data = r.json()
+            out_path = os.path.join(belt_dir, f"{name.lower()}.json")
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            print(f"Sparade {name} till {out_path}")
+        except Exception as e:
+            print(f"[Fel] Kunde inte hämta {name}: {e}")
+        time.sleep(2)  # Paus minst 2 sekunder
+
+    print("Klart! Fångade dessa Pokémon:", list(chosen.values()))
+
 if __name__ == "__main__":
     try:
-        main()
+        main()                     # Task a: Skapar pokelist.json
+        fetch_pokemons_from_api()  # Task b: Hämtar 6 random Pokémon
     except Exception as e:
         sys.stderr.write(f"[Fel] {e}\n")
         sys.exit(1)

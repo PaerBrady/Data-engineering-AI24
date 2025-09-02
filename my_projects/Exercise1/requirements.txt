@@ -1,6 +1,4 @@
-matplotlib
+requests
 pandas
-numpy
-dash
-scikit-learn
-plotly
+lxml
+html5lib
