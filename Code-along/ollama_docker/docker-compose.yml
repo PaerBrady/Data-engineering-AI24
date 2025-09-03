@@ -1,0 +1,37 @@
+services:
+  app:
+    build: .
+    container_name: app
+    ports:
+      - 8000:8000
+      - 5678:5678
+    volumes:
+      - .:/code
+    command: uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+    restart: always
+    depends_on:
+      - ollama
+    networks:
+      - ollama-docker
+    
+  ollama:
+    image: docker.io/ollama/ollama:latest
+    ports:
+      - 7869:11434
+    volumes:
+      - ./ollama/ollama:/root/.ollama
+      - ./ollama_init.sh:/ollama_init.sh
+    container_name: ollama
+    entrypoint: ["/bin/bash", "ollama_init.sh"]
+    pull_policy: always
+    tty: true
+    restart: always
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    networks:
+    - ollama-docker
+  
+networks:
+  ollama-docker:
+    driver: bridge
+
