@@ -1,13 +1,16 @@
-services:
-  app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: exercise2-python311:latest
-    working_dir: /app
-    command: python src/main.py
-    volumes:
-      - ./src:/app/src:rw
-    user: "${UID:-1000}:${GID:-1000}"
-    tty: true
-    stdin_open: true
+services:                 # Här definierar vi tjänster (containers) som ska köras
+  app:                    # Namnet på tjänsten – du kan välja fritt, här heter den "app"
+    build:                # Bygginstruktioner för containern
+      context: .          # "." = bygg från nuvarande mapp (där Dockerfile ligger)
+      dockerfile: Dockerfile   # Använd den Dockerfile vi har i projektroten
+    image: exercise2-python311:latest   # Ge imagen ett namn/tagg (praktiskt om du vill återanvända den)
+    working_dir: /app     # Sätt arbetskatalogen inne i containern till /app
+    command: python src/main.py   # Standardkommando: kör main.py när containern startar
+    volumes:              # Här mappar vi (bind-mountar) mappar från din dator till containern
+      - ./src:/app/src:rw     # Kopplar din lokala "src"-mapp till "/app/src" i containern (read-write)
+      - ./data:/app/data:rw   # Kopplar din lokala "data"-mapp till "/app/data" i containern (read-write)
+    user: "${UID:-1000}:${GID:-1000}"  
+      # Sätter användare inne i containern till samma som på din dator (så att filer inte ägs av root).
+      # Om UID/GID inte hittas används 1000:1000 som standard (vanlig Linux user).
+    tty: true             # Ger en "terminal" så att containern kan köras interaktivt (bra för utveckling)
+    stdin_open: true      # Gör att standard input (stdin) hålls öppen → du kan skriva kommandon i den om du vill
