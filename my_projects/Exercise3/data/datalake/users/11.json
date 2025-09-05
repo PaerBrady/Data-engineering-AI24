@@ -1,0 +1,18 @@
+{
+  "id": 11,
+  "first_name": "Margareta",
+  "last_name": "Nordin",
+  "email": "tholmstrom@example.net",
+  "phone_number": "08-254 94 33",
+  "date_of_birth": "2024-12-27",
+  "avatar": "https://i.pravatar.cc/150?img=11",
+  "address": {
+    "street": "Stationsstigen 993",
+    "city": "Uppsala",
+    "zip": "92263",
+    "coordinates": {
+      "lat": -52.2554475,
+      "lng": -78.883733
+    }
+  }
+}

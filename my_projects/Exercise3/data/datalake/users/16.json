@@ -1,0 +1,18 @@
+{
+  "id": 16,
+  "first_name": "Rune",
+  "last_name": "Karlsson",
+  "email": "margareta06@example.net",
+  "phone_number": "018-324 39 70",
+  "date_of_birth": "1981-03-02",
+  "avatar": "https://i.pravatar.cc/150?img=16",
+  "address": {
+    "street": "B\u00e4ckv\u00e4gen 15",
+    "city": "J\u00f6nk\u00f6ping",
+    "zip": "57878",
+    "coordinates": {
+      "lat": -24.840589,
+      "lng": 137.268763
+    }
+  }
+}

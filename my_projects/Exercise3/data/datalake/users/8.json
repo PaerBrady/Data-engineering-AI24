@@ -1,0 +1,18 @@
+{
+  "id": 8,
+  "first_name": "Svea",
+  "last_name": "Bengtsson",
+  "email": "bo37@example.org",
+  "phone_number": "08-635 26 99",
+  "date_of_birth": "1911-12-21",
+  "avatar": "https://i.pravatar.cc/150?img=8",
+  "address": {
+    "street": "Ekgr\u00e4nd 73",
+    "city": "Lund",
+    "zip": "36827",
+    "coordinates": {
+      "lat": 9.569744,
+      "lng": -99.020495
+    }
+  }
+}

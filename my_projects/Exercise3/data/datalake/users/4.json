@@ -1,0 +1,18 @@
+{
+  "id": 4,
+  "first_name": "Michael",
+  "last_name": "Larsson",
+  "email": "svenssonlena@example.org",
+  "phone_number": "072-211 70 62",
+  "date_of_birth": "2024-05-22",
+  "avatar": "https://i.pravatar.cc/150?img=4",
+  "address": {
+    "street": "Kyrktorget 667",
+    "city": "\u00d6rnsk\u00f6ldsvik",
+    "zip": "85225",
+    "coordinates": {
+      "lat": 52.585953,
+      "lng": -31.59165
+    }
+  }
+}

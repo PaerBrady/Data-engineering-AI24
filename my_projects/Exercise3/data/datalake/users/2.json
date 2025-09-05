@@ -1,0 +1,18 @@
+{
+  "id": 2,
+  "first_name": "Erik",
+  "last_name": "Larsson",
+  "email": "mikael60@example.net",
+  "phone_number": "0714-00 26 04",
+  "date_of_birth": "1989-11-06",
+  "avatar": "https://i.pravatar.cc/150?img=2",
+  "address": {
+    "street": "Skolstigen 248",
+    "city": "G\u00e4vle",
+    "zip": "20514",
+    "coordinates": {
+      "lat": 79.7649285,
+      "lng": -27.296391
+    }
+  }
+}

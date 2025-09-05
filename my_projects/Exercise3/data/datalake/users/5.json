@@ -1,0 +1,18 @@
+{
+  "id": 5,
+  "first_name": "Per",
+  "last_name": "Lundstr\u00f6m",
+  "email": "kjell28@example.net",
+  "phone_number": "032-08 97 17",
+  "date_of_birth": "1977-12-30",
+  "avatar": "https://i.pravatar.cc/150?img=5",
+  "address": {
+    "street": "Storgatan 816",
+    "city": "S\u00f6dert\u00e4lje",
+    "zip": "98123",
+    "coordinates": {
+      "lat": 88.9510945,
+      "lng": 154.381062
+    }
+  }
+}

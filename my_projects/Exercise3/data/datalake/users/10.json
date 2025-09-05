@@ -1,0 +1,18 @@
+{
+  "id": 10,
+  "first_name": "Margareta",
+  "last_name": "Ekstr\u00f6m",
+  "email": "lena87@example.org",
+  "phone_number": "+46 (0)434 745 18",
+  "date_of_birth": "2014-04-14",
+  "avatar": "https://i.pravatar.cc/150?img=10",
+  "address": {
+    "street": "\u00c4ngstorget 963",
+    "city": "Motala",
+    "zip": "36535",
+    "coordinates": {
+      "lat": -64.1144565,
+      "lng": 81.997759
+    }
+  }
+}

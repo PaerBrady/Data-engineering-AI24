@@ -1,0 +1,29 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    container_name: exercise3_app
+    environment:
+      - DATA_DIR=/app/data
+      - NUM_USERS=5
+    ports:
+      - "8050:8050"
+    volumes:
+      - ./data:/app/data
+      - ./ELT:/app/ELT
+    command: ["python", "ELT/dashboard.py"]
+    depends_on:
+      - scheduler
+
+  scheduler:
+    build: .
+    container_name: exercise3_scheduler
+    environment:
+      - DATA_DIR=/app/data
+      - NUM_USERS=5
+    volumes:
+      - ./data:/app/data
+      - ./ELT:/app/ELT
+      - ./scheduler/crontab:/app/app-cron:ro
+    # Ladda crontab-filen och kör cron i foreground
+    command: [ "bash", "-lc", "crontab /app/app-cron && cron -f" ]

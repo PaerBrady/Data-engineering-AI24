@@ -1,0 +1,18 @@
+{
+  "id": 7,
+  "first_name": "Eva",
+  "last_name": "Olsson",
+  "email": "jlarsson@example.org",
+  "phone_number": "08-85 88 58",
+  "date_of_birth": "2016-02-04",
+  "avatar": "https://i.pravatar.cc/150?img=7",
+  "address": {
+    "street": "\u00c5kergr\u00e4nd 1",
+    "city": "Kalmar",
+    "zip": "16839",
+    "coordinates": {
+      "lat": 17.5987935,
+      "lng": 146.843454
+    }
+  }
+}

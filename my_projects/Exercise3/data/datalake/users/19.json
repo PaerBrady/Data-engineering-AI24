@@ -1,0 +1,18 @@
+{
+  "id": 19,
+  "first_name": "Benny",
+  "last_name": "Andersson",
+  "email": "maxelsson@example.net",
+  "phone_number": "024-64 70 50",
+  "date_of_birth": "1923-09-25",
+  "avatar": "https://i.pravatar.cc/150?img=19",
+  "address": {
+    "street": "Kyrkogatan 286",
+    "city": "\u00d6rebro",
+    "zip": "79546",
+    "coordinates": {
+      "lat": 45.290397,
+      "lng": -42.953466
+    }
+  }
+}

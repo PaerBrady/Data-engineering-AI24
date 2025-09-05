@@ -1,0 +1,18 @@
+{
+  "id": 6,
+  "first_name": "Bertil",
+  "last_name": "Jonsson",
+  "email": "karin77@example.org",
+  "phone_number": "08-765 71 09",
+  "date_of_birth": "2019-05-30",
+  "avatar": "https://i.pravatar.cc/150?img=6",
+  "address": {
+    "street": "Villav\u00e4gen 3",
+    "city": "M\u00f6lndal",
+    "zip": "77247",
+    "coordinates": {
+      "lat": 29.503934,
+      "lng": -74.678527
+    }
+  }
+}

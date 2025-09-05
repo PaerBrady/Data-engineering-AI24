@@ -1,0 +1,18 @@
+{
+  "id": 9,
+  "first_name": "Jan",
+  "last_name": "Andersson",
+  "email": "larspalsson@example.org",
+  "phone_number": "+46 (0)753 235 70",
+  "date_of_birth": "1929-07-14",
+  "avatar": "https://i.pravatar.cc/150?img=9",
+  "address": {
+    "street": "Kvarnv\u00e4gen 8",
+    "city": "Motala",
+    "zip": "64318",
+    "coordinates": {
+      "lat": 50.125398,
+      "lng": 125.221559
+    }
+  }
+}

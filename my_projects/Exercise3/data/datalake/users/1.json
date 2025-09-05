@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "first_name": "Christer",
+  "last_name": "Persson",
+  "email": "olindgren@example.net",
+  "phone_number": "+46 (0)8 042 006 04",
+  "date_of_birth": "1933-06-20",
+  "avatar": "https://i.pravatar.cc/150?img=1",
+  "address": {
+    "street": "Idrottsgatan 1",
+    "city": "Karlskoga",
+    "zip": "91777",
+    "coordinates": {
+      "lat": -49.0548915,
+      "lng": 159.866915
+    }
+  }
+}

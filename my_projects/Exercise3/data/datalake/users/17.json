@@ -1,0 +1,18 @@
+{
+  "id": 17,
+  "first_name": "Leif",
+  "last_name": "Andersson",
+  "email": "margaretalarsson@example.com",
+  "phone_number": "+46 (0)51 67 95 38",
+  "date_of_birth": "1935-01-30",
+  "avatar": "https://i.pravatar.cc/150?img=17",
+  "address": {
+    "street": "Ringv\u00e4gen 24",
+    "city": "\u00d6stersund",
+    "zip": "62410",
+    "coordinates": {
+      "lat": -8.7570895,
+      "lng": 90.421747
+    }
+  }
+}
