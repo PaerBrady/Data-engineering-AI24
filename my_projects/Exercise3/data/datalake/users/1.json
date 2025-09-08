@@ -1,18 +1,18 @@
 {
   "id": 1,
-  "first_name": "Christer",
-  "last_name": "Persson",
-  "email": "olindgren@example.net",
-  "phone_number": "+46 (0)8 042 006 04",
-  "date_of_birth": "1933-06-20",
+  "first_name": "Christina",
+  "last_name": "Svensson",
+  "email": "anderssongert@example.org",
+  "phone_number": "+46 (0)219 235 25",
+  "date_of_birth": "1925-04-09",
   "avatar": "https://i.pravatar.cc/150?img=1",
   "address": {
-    "street": "Idrottsgatan 1",
-    "city": "Karlskoga",
-    "zip": "91777",
+    "street": "\u00c4ngsgatan 5",
+    "city": "M\u00f6lndal",
+    "zip": "54052",
     "coordinates": {
-      "lat": -49.0548915,
-      "lng": 159.866915
+      "lat": 65.982405,
+      "lng": -100.690614
     }
   }
 }

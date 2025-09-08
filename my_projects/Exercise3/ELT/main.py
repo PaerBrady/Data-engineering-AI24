@@ -15,7 +15,8 @@ if __name__ == "__main__":
 
     ids, urls = avatar_df["id"], avatar_df["avatar"]
 
-    print(urls, ids) 
+   # I main.py, efter att du definierat ids, urls
+    print(f"[cron] Batch körd. Antal users: {len(ids)}", flush=True)
     loader = Load(paths_directory["data_warehouse"])
 
     map_df = Transforms(paths_directory["users"]).map_dashboard_df

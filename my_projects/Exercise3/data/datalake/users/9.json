@@ -1,18 +1,18 @@
 {
   "id": 9,
-  "first_name": "Jan",
-  "last_name": "Andersson",
-  "email": "larspalsson@example.org",
-  "phone_number": "+46 (0)753 235 70",
-  "date_of_birth": "1929-07-14",
+  "first_name": "Anders",
+  "last_name": "Lindberg",
+  "email": "peterssonkarin@example.net",
+  "phone_number": "018-55 22 33",
+  "date_of_birth": "1946-08-30",
   "avatar": "https://i.pravatar.cc/150?img=9",
   "address": {
-    "street": "Kvarnv\u00e4gen 8",
-    "city": "Motala",
-    "zip": "64318",
+    "street": "Gentorget 21",
+    "city": "\u00d6rnsk\u00f6ldsvik",
+    "zip": "29809",
     "coordinates": {
-      "lat": 50.125398,
-      "lng": 125.221559
+      "lat": 22.1085575,
+      "lng": -33.065001
     }
   }
 }

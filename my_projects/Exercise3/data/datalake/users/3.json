@@ -1,18 +1,18 @@
 {
   "id": 3,
-  "first_name": "Anna",
-  "last_name": "Pettersson",
-  "email": "anderssonsolveig@example.net",
-  "phone_number": "0235-90 50 32",
-  "date_of_birth": "1978-08-14",
+  "first_name": "Mats",
+  "last_name": "Norberg",
+  "email": "gustafssonrut@example.net",
+  "phone_number": "079-696 57 07",
+  "date_of_birth": "2006-09-15",
   "avatar": "https://i.pravatar.cc/150?img=3",
   "address": {
-    "street": "Furugr\u00e4nd 2",
-    "city": "Link\u00f6ping",
-    "zip": "73570",
+    "street": "J\u00e4rnv\u00e4gsgatan 4",
+    "city": "S\u00f6dert\u00e4lje",
+    "zip": "57843",
     "coordinates": {
-      "lat": 34.02421,
-      "lng": 167.158687
+      "lat": -20.9116135,
+      "lng": -144.727216
     }
   }
 }

@@ -1,18 +1,18 @@
 {
   "id": 2,
-  "first_name": "Erik",
-  "last_name": "Larsson",
-  "email": "mikael60@example.net",
-  "phone_number": "0714-00 26 04",
-  "date_of_birth": "1989-11-06",
+  "first_name": "Annika",
+  "last_name": "Svensson",
+  "email": "lennart18@example.com",
+  "phone_number": "08-734 50 28",
+  "date_of_birth": "1975-07-09",
   "avatar": "https://i.pravatar.cc/150?img=2",
   "address": {
-    "street": "Skolstigen 248",
-    "city": "G\u00e4vle",
-    "zip": "20514",
+    "street": "B\u00e4ckv\u00e4gen 8",
+    "city": "Lidk\u00f6ping",
+    "zip": "31909",
     "coordinates": {
-      "lat": 79.7649285,
-      "lng": -27.296391
+      "lat": -61.767523,
+      "lng": 67.425374
     }
   }
 }

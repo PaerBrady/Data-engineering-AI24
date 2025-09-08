@@ -1,21 +1,6 @@
-,id,name,date_of_birth,city,latitude,longitude
-0,20,Linnéa Norman,1914-06-09,Örnsköldsvik,-74.999333,-179.111073
-1,16,Rune Karlsson,1981-03-02,Jönköping,-24.840589,137.268763
-2,6,Bertil Jonsson,2019-05-30,Mölndal,29.503934,-74.678527
-3,7,Eva Olsson,2016-02-04,Kalmar,17.5987935,146.843454
-4,17,Leif Andersson,1935-01-30,Östersund,-8.7570895,90.421747
-5,10,Margareta Ekström,2014-04-14,Motala,-64.1144565,81.997759
-6,1,Christer Persson,1933-06-20,Karlskoga,-49.0548915,159.866915
-7,11,Margareta Nordin,2024-12-27,Uppsala,-52.2554475,-78.883733
-8,2,Erik Larsson,1989-11-06,Gävle,79.7649285,-27.296391
-9,12,Viola Svensson,1985-09-08,Lidköping,-29.6810955,115.416095
-10,13,Jenny Larsson,1991-05-08,Varberg,-53.2147785,16.492715
-11,3,Anna Pettersson,1978-08-14,Linköping,34.02421,167.158687
-12,8,Svea Bengtsson,1911-12-21,Lund,9.569744,-99.020495
-13,18,Johanna Eriksson,1927-04-11,Helsingborg,14.4888725,49.502377
-14,4,Michael Larsson,2024-05-22,Örnsköldsvik,52.585953,-31.59165
-15,14,Susanna Boström,1961-09-18,Växjö,13.405267,-9.740441
-16,15,Christoffer Larsson,1975-09-18,Örnsköldsvik,87.899476,108.821386
-17,5,Per Lundström,1977-12-30,Södertälje,88.9510945,154.381062
-18,19,Benny Andersson,1923-09-25,Örebro,45.290397,-42.953466
-19,9,Jan Andersson,1929-07-14,Motala,50.125398,125.221559
+id,name,date_of_birth,city,latitude,longitude
+1,Christina Svensson,1925-04-09,Mölndal,65.982405,-100.690614
+2,Annika Svensson,1975-07-09,Lidköping,-61.767523,67.425374
+3,Mats Norberg,2006-09-15,Södertälje,-20.9116135,-144.727216
+4,Mona Nilsson,1992-12-11,Lund,88.9646975,71.115308
+5,Elisabet Holmström,1972-07-07,Östersund,21.346609,73.806278

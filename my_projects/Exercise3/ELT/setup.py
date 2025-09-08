@@ -3,7 +3,7 @@ import os
 from pathlib import Path 
 
 # Basera allt på DATA_DIR (default /app/Data)
-base_dir = Path(os.getenv("DATA_DIR", Path(__file__).parents[1] / "Data"))
+base_dir = Path(os.getenv("DATA_DIR", Path(__file__).parents[1] / "data"))
 
 paths_directory = {
     "users":  base_dir / "datalake" / "users",

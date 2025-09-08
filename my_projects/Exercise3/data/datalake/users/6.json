@@ -1,18 +1,18 @@
 {
   "id": 6,
-  "first_name": "Bertil",
-  "last_name": "Jonsson",
-  "email": "karin77@example.org",
-  "phone_number": "08-765 71 09",
-  "date_of_birth": "2019-05-30",
+  "first_name": "Kurt",
+  "last_name": "Andersson",
+  "email": "anderssonroger@example.org",
+  "phone_number": "+46 (0)02 88 77 29",
+  "date_of_birth": "1939-06-09",
   "avatar": "https://i.pravatar.cc/150?img=6",
   "address": {
-    "street": "Villav\u00e4gen 3",
-    "city": "M\u00f6lndal",
-    "zip": "77247",
+    "street": "Industritorget 9",
+    "city": "Skellefte\u00e5",
+    "zip": "24037",
     "coordinates": {
-      "lat": 29.503934,
-      "lng": -74.678527
+      "lat": 32.4772975,
+      "lng": -147.091419
     }
   }
 }

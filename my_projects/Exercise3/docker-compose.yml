@@ -1,4 +1,4 @@
-version: "3.9"
+# version: "3.9"
 services:
   app:
     build: .
@@ -27,3 +27,4 @@ services:
       - ./scheduler/crontab:/app/app-cron:ro
     # Ladda crontab-filen och kör cron i foreground
     command: [ "bash", "-lc", "crontab /app/app-cron && cron -f" ]
+

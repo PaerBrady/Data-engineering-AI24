@@ -1,18 +1,18 @@
 {
   "id": 8,
-  "first_name": "Svea",
-  "last_name": "Bengtsson",
-  "email": "bo37@example.org",
-  "phone_number": "08-635 26 99",
-  "date_of_birth": "1911-12-21",
+  "first_name": "Elsa",
+  "last_name": "Nilsson",
+  "email": "ggustavsson@example.org",
+  "phone_number": "0173-969 64",
+  "date_of_birth": "1981-01-23",
   "avatar": "https://i.pravatar.cc/150?img=8",
   "address": {
-    "street": "Ekgr\u00e4nd 73",
-    "city": "Lund",
-    "zip": "36827",
+    "street": "Genstigen 17",
+    "city": "Landskrona",
+    "zip": "71856",
     "coordinates": {
-      "lat": 9.569744,
-      "lng": -99.020495
+      "lat": 66.443493,
+      "lng": 134.682887
     }
   }
 }
